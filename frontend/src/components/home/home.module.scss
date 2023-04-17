@@ -1,0 +1,100 @@
+.root {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(201, 201, 201);
+  margin: 0;
+  height: 100vh;
+  padding-top: 10px;
+}
+.homeBody {
+}
+.Container {
+  background-color: #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.HomeSlider {
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 350px;
+}
+
+.hsText {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+.Category {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 60%;
+}
+.catName {
+}
+.catQuote {
+}
+.Cat1 {
+  position: relative;
+  margin-top: 5em;
+  text-align: center;
+  transition: transform 300ms ease-out;
+}
+.Cat1:hover {
+  transform: translate(0px, 0px) scale(1.1, 1.1) skew(1deg, 0deg);
+}
+
+.catImg {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.catText {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  left: 50%;
+  transform: translate(-50%, -30%);
+  width: 20em;
+}
+.slideImg {
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.catcat {
+  font-weight: 600;
+  font-size: 30px;
+}
+.catQ {
+  font-size: 30px;
+}
+.cName {
+  text-decoration: underline;
+  text-align: center;
+  margin: 2em;
+}
+.cQuote {
+  text-align: center;
+  margin: 2em;
+}
+.sText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.sPar {
+  text-align: justify;
+  margin: 1.5em 2em;
+}
+.imgContainer {
+  width: 40%;
+}
+.textdecor {
+  text-decoration: none;
+}

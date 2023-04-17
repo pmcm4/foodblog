@@ -1,0 +1,32 @@
+.root {
+}
+.Container {
+  height: 240px;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  width: 20em;
+  position: relative;
+  left: 100px;
+}
+.info {
+  width: 20em;
+}
+.logoFooter {
+  width: 30em;
+  height: 100%;
+}
+.footerDesc {
+  text-align: start;
+}
+.socmed {
+  font-size: 25px;
+  text-align: start;
+}
+.link {
+  text-align: start;
+}

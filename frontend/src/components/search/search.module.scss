@@ -1,0 +1,93 @@
+.root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  column-gap: 30px;
+}
+.searchBox {
+  width: 20%;
+  background-color: white;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 30px;
+  height: 350px;
+}
+.result {
+  height: 100%;
+  width: 60%;
+  background-color: white;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.searchInput {
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  border-color: gray;
+  font-size: 20px;
+}
+.searchBtn {
+  height: 45px;
+  width: 100px;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.filterLogo {
+  width: 100px;
+}
+.heading {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.filters {
+  height: 70%;
+}
+.subhead {
+  font-weight: 500;
+  font-size: 30px;
+  flex-direction: row;
+  display: flex;
+  padding-right: 0px;
+  padding-left: 30px;
+}
+.catList {
+  font-size: 25px;
+  flex-direction: row;
+  display: flex;
+  padding-left: 30px;
+}
+.rFilters {
+  height: 400px;
+  width: 100%;
+  align-items: end;
+  display: flex;
+  justify-items: end;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: end;
+  align-content: center;
+}

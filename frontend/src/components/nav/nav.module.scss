@@ -1,0 +1,131 @@
+.root {
+  display: flex;
+}
+.navContainer {
+  height: 84px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  gap: 180px;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight:bolder;
+}
+.NavHead {
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  gap: 60px;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  font-size: 20px;
+}
+.menu:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.search {
+  width: 30em;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+.searchInput {
+  width: 200px;
+  border-color: gray;
+  font-size: 15px;
+  height: 25px;
+}
+.searchBtn {
+  height: 30px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 75px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+}
+.navMenu {
+  width: auto;
+  font-size: 15px;
+}
+.loginIcon {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: 100px;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;
+}
+.menu {
+  font-size: 15px;
+}
+.menuWithChildren {
+  position: relative;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 20%;
+  z-index: 1;
+  background-color: white;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  
+}
+
+.menuWithChildren:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownMenu li {
+  margin: 0.25rem 0;
+  list-style: none;
+}
+
+.dropdownMenu a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.dropdownMenu a:hover {
+  text-decoration: underline;
+}
+
+.navMenu {
+  width: auto;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.navMenu:hover {
+  text-decoration: underline;
+}
+
+.navMenu:hover .dropdownMenu {
+  display: block;
+}
+
+.dropdownMenuContainer {
+  display: flex;
+  flex-direction: column;
+}

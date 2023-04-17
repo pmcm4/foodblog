@@ -1,0 +1,200 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  background-color: #b9b9b9;
+}
+.profile {
+  width: 30em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 46em;
+}
+.content {
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  gap: 10px;
+}
+.posterInfo {
+  font-size: 20px;
+}
+.blogHeader {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.headDets {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 95%;
+  font-size: 20px;
+}
+.headTitle {
+  display: flex;
+  justify-content: start;
+  width: 95%;
+  font-size: 40px;
+  height: 100px;
+}
+.body {
+  font-size: 25px;
+  text-align: justify;
+  width: 100%;
+}
+.blogBody {
+  width: 95%;
+}
+.imageSlider {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 30em;
+}
+.imgs {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.imgDesc {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.imgH1 {
+  width: 95%;
+  text-align: center;
+}
+.slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position: static;
+}
+.next {
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position: absolute;
+}
+.prof {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 60px;
+}
+.textInfo {
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  left: 50px;
+  height: 100%;
+  width: 300px;
+}
+.profPic {
+  width: 50px;
+  height: 100%;
+  position: relative;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.profPicImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+  font-weight: 500;
+  height: 40px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-items: center;
+  justify-content: start;
+}
+.time {
+  display: flex;
+  justify-content: start;
+  align-content: start;
+  justify-items: start;
+  align-items: start;
+  gap: 10px;
+  position: relative;
+  bottom: 18px;
+}
+
+.nameDiv {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-content: space-evenly;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.imgDiv {
+  width: 50%;
+  flex-direction: row;
+}
+.imgParagraph {
+  font-size: 30px;
+  text-decoration-line: underline;
+}
+.edit {
+  height: 100%;
+  width: 150px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  left: 645px;
+}
